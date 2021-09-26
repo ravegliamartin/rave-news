@@ -1,0 +1,18 @@
+.article-container {
+    max-width: 1100px;
+    margin: 0 auto;
+    margin-top: 72px;
+}
+
+.article-section {
+    font-size: 12px;
+    letter-spacing: 0.2px;
+    line-height: 1;
+    color: #c00;
+    display: inline-block;
+    font-weight: 300;
+    text-transform: capitalize;
+    vertical-align: top;
+    margin-bottom: 18px;
+    text-decoration: none;
+}
