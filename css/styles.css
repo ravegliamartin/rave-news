@@ -1,13 +1,36 @@
+@font-face {
+    font-family: "CNN Font";
+    src: url("../fonts/cnn-font.woff") format('woff');
+}
+
+@font-face {
+    font-family: "CNNSans";
+    src: url("../fonts/cnnsans-regular.woff") format('woff');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: CNNSans,
+        'Helvetica Neue',
+        Helvetica,
+        Arial,
+        sans-serif
+}
+
 .article-container {
     max-width: 1100px;
     margin: 0 auto;
     margin-top: 72px;
+    position: relative;
 }
 
 .article-section {
     font-size: 12px;
     letter-spacing: 0.2px;
-    line-height: 1;
     color: #c00;
     display: inline-block;
     font-weight: 300;
@@ -15,4 +38,44 @@
     vertical-align: top;
     margin-bottom: 18px;
     text-decoration: none;
+}
+
+.article-header {
+    padding: 124px 0 72px 0;
+}
+
+.article-header h1 {
+    font-family: 'CNN Font',
+        "Times New Roman",
+        Times,
+        serif;
+    margin-bottom: 16px;
+    font-size: 3rem;
+    font-weight: 400;
+    padding-right: 30%;
+}
+
+.article-header h3 {
+    color: #7a7a7a;
+    font-size: 0.7rem;
+    font-weight: 100;
+}
+
+.header-img-container {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+.header-img-container {
+    position: relative;
+}
+
+.header-img-container figcaption {
+    color: #fff;
+    text-shadow: 0 0 12px rgba(0, 0, 0, 0.6);
+    position: absolute;
+    bottom: 16px;
+    right: 400px;
+    font-size: 0.65rem;
 }
