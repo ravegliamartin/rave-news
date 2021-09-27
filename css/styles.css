@@ -23,6 +23,15 @@ body {
 
 p {
     margin-top: 24px;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 0.2px;
+    line-height: 24px;
+    color: #1f1f1f;
+}
+
+p:last-child {
+    margin-bottom: 50px;
 }
 
 .article-container {
@@ -88,6 +97,7 @@ p {
     border-top: 1px solid #e6e6e6;
     float: right;
     width: 300px;
+    margin-top: 750px;
 }
 
 #related-articles a {
@@ -140,6 +150,7 @@ p {
     color: #0c0c0c;
     line-height: 1.25;
     font-size: 0.9rem;
+    margin: 0;
 }
 
 section {
@@ -221,4 +232,26 @@ section figure {
 .related-article-aside a {
     text-decoration: none;
     font-weight: 800;
+    letter-spacing: 0.25px;
+}
+
+section figcaption {
+    border-bottom: 1px solid #e6e6e6;
+    color: #7a7a7a;
+    line-height: 1.5;
+    padding: 18px 0;
+    margin-bottom: 32px;
+    font-size: 0.8rem;
+    display: inline-block;
+    width: 100%;
+}
+
+.img-author {
+    color: #c5c5c5;
+    display: inline;
+}
+
+.embedded {
+    width: 100%;
+
 }
