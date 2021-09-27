@@ -41,7 +41,8 @@ p:last-child {
     position: relative;
 }
 
-.article-section {
+.article-section,
+.article-section a {
     font-size: 12px;
     letter-spacing: 0.2px;
     color: #c00;
@@ -67,6 +68,18 @@ p:last-child {
     font-weight: 400;
     padding-right: 30%;
 }
+
+#mainSubtitle {
+    font-family: 'CNN Font',
+        "Times New Roman",
+        Times,
+        serif;
+    margin-bottom: 16px;
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding-right: 15%;
+}
+
 
 .article-header h3 {
     color: #7a7a7a;
@@ -153,7 +166,8 @@ p:last-child {
     margin: 0;
 }
 
-section {
+section,
+footer {
     margin-right: 24px;
     padding-right: 48px;
     border-right: 1px solid #e6e6e6;
@@ -162,7 +176,9 @@ section {
 
 }
 
-section p {
+section p,
+footer p,
+footer .share-on-social-media {
     padding-left: 188px;
     font-size: 15px;
     font-weight: 100;
@@ -183,7 +199,8 @@ section>p:first-of-type::first-letter {
     text-transform: uppercase;
 }
 
-section a {
+section a,
+footer a {
     color: #0c0c0c;
 }
 
@@ -235,6 +252,10 @@ section figure {
     letter-spacing: 0.25px;
 }
 
+section img {
+    width: 100%;
+}
+
 section figcaption {
     border-bottom: 1px solid #e6e6e6;
     color: #7a7a7a;
@@ -253,4 +274,67 @@ section figcaption {
 
 .embedded {
     width: 100%;
+}
+
+blockquote {
+    border-left: 3px solid #cc0000;
+    line-height: 32px;
+    font-size: larger;
+    font-style: italic;
+    color: #575757;
+    padding-left: 22px;
+    margin-left: 188px;
+    margin-top: 24px;
+}
+
+section>h2:first-child {
+    margin-left: 188px;
+}
+
+.more-like-this {
+    font-weight: 800;
+    margin-left: 188px;
+    margin-top: 24px;
+    border: none;
+}
+
+.more-like-this ul {
+    list-style-type: '-';
+    list-style-position: inside;
+}
+
+.more-like-this a {
+    text-decoration: none;
+    color: #575757;
+    font-weight: 100;
+}
+
+.share-on-social-media a {
+    text-decoration: none;
+}
+
+.share-on-social-media button {
+    border: none;
+    background-color: transparent;
+    width: 116px;
+}
+
+footer p {
+    color: #575757;
+    /* font-size: 16px; */
+    line-height: 1.5;
+    font-style: italic;
+}
+
+
+footer p:last-child {
+    margin-bottom: 24px;
+}
+
+footer p:last-of-type::after {
+    content: "";
+    display: block;
+    width: 153px;
+    border-bottom: 2px solid #cc0000;
+    margin: 24px 0;
 }
