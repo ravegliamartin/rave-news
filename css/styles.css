@@ -241,6 +241,10 @@ section figure {
     line-height: 18px;
 }
 
+.related-article-aside img {
+    width: auto;
+}
+
 .related-article-aside h4 {
     color: #7a7a7a;
     font-weight: 100;
